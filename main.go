@@ -22,6 +22,6 @@ func main() {
 			pt: "",
 		},
 	}
-	readFiles("/Users/devhulk/go/tmp", t.FileMap)
-	writeFiles("/Users/devhulk/go/tmp", t.FileMap)
+	readFiles("", t.FileMap)
+	writeFiles("", t.FileMap)
 }
